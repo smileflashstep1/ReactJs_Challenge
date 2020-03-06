@@ -1,0 +1,221 @@
+.main {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 30px;
+    padding-right: 30px;    
+}
+
+.searchButton {
+    height: 47px;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    background-color: #DFDFDF;
+    float: left;
+    margin-top: 20px;
+    margin-left: 21px;
+}
+
+.movieDetailsDiv {
+    float: left;
+    width: 70%;
+    margin-left: 30px;
+}
+
+.movieCardDiv {
+    float: left;
+}
+
+.ratingDiv {
+    margin-top: 20px;
+    float: right;
+}
+
+.descDiv {
+    margin-top: 20px;
+    padding-top: 30px;
+    display: block;
+}
+
+.inputDiv {    
+    margin-top: 10px;
+    float: left;
+    width: 67%;
+}
+
+.homeIcon {
+    display: inline-block;
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.imageDiv {
+    margin-top: 40px;    
+    padding: 20px;
+    width: 24%;
+    display: inline-block;
+}
+
+.contentDiv {    
+    padding: 50px;
+    width: 60%;
+    float: right;
+    margin-right: 50px;
+}
+
+.contentDiv p {
+    font-size: 20px;
+}
+
+.search {
+    margin-top: 10px;
+    width: 70%;
+    padding: 15px;
+    background-color: #DFDFDF;
+    border-radius: 0px 15px 15px 0px;
+    outline: none;
+    border:none;
+    font-size: 15px;
+    font-weight: bold; 
+    font-family: sans-serif;
+    transition: 0.2s ease-out;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 #DFDFDF;
+    transition: 0.3s;
+    width: 24%;
+    border-radius: 15px;
+    display:inline-block;
+    margin-left: 10px;
+    margin-top:20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 8px 16px 0 #4285F4;
+  }
+  
+  .cardcontainer {
+    padding: 2px 16px;
+  }
+
+
+  @media screen and (min-width:512px) and (max-width:767px) {
+    .main {
+        width: 100%;  
+    }
+    .searchButton {
+        margin-left: 10px;
+    }
+    .inputDiv {    
+        width: 40%;
+    }
+    .homeIcon {
+        margin-top: 10px;
+        margin-left: 175px;
+    }
+    .card {
+        width: 46%;
+      }
+    .movieDetailsDiv {
+        width: 45%;        
+    }
+    .movieDetailsDiv h1 {
+        font-size: 1.4rem;
+        margin-top: 35px;
+    }
+    .imageDiv {
+        margin-left: 70px;
+        width: 60%;
+        display: block;
+    }
+    .contentDiv {
+        width: 70%;
+    }
+    .contentDiv h1{
+        font-size: 1.8rem;
+    }
+    .contentDiv p{
+        font-size: 1.1rem;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px){
+    .main {
+        width: 100%;  
+    }
+    .searchButton {
+        margin-left: 20px;
+    }
+    .inputDiv {    
+        width: 50%;
+    }
+    .homeIcon {
+        margin-top: 10px;
+        margin-left: 230px;
+    }
+    .card {
+        width: 30%;
+      }
+      .movieDetailsDiv {
+        width: 55%;        
+    }
+    .imageDiv {    
+        padding: 20px;
+        width: 30%;
+    }
+    .contentDiv {    
+        padding: 40px;
+        width: 45%;
+        float: right;
+        margin-right: 60px;
+    }
+    .contentDiv h1{
+        font-size: 1.8rem;
+    }
+    .contentDiv p{
+        font-size: 1.1rem;
+    }
+  }
+
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    .main {
+        width: 100%;  
+    }
+    .searchButton {
+        margin-left: 20px;
+    }
+    .inputDiv {    
+        width: 60%;
+    }
+    .homeIcon {
+        margin-top: 10px;
+        margin-left: 320px;
+    }
+    .movieDetailsDiv {
+        margin-left: 67px;
+        width: 60%;
+    }
+  }
+
+
+  /* @media screen and (min-width:513px) {
+    .main {
+        width: 100%;  
+    }
+    .searchButton {
+        margin-left: 10px;
+    }
+    .inputDiv {    
+        width: 50%;
+    }
+    .homeIcon {
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+    .card {
+        width: 45%;
+      }
+  } */
