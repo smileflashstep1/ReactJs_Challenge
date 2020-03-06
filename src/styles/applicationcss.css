@@ -199,23 +199,3 @@
         width: 60%;
     }
   }
-
-
-  /* @media screen and (min-width:513px) {
-    .main {
-        width: 100%;  
-    }
-    .searchButton {
-        margin-left: 10px;
-    }
-    .inputDiv {    
-        width: 50%;
-    }
-    .homeIcon {
-        margin-top: 10px;
-        margin-left: 120px;
-    }
-    .card {
-        width: 45%;
-      }
-  } */

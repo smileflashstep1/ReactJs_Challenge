@@ -3,7 +3,7 @@
  
 
 Step 1: Clone the code from Git repository ()
-Step 2: Navigate to the folder.
+Step 2: Navigate to the folder ReactJS_Challenge.
 Step 3: Run the command "npm install" to install dependencies in package.json.
 Step 4: Run the command "npm start".
 Step 5: On the browser, the application runs on http://localhost:3000
